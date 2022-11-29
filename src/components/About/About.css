@@ -1,6 +1,9 @@
 div + div {
     margin-top: 10px;
 }
+.homeContainer{
+    margin-top: 80px
+}
 .aboutContainerTop {
     display: flex;
     flex-direction: row;
@@ -10,10 +13,23 @@ div + div {
     background-color: #242526;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
-
+    
 }
 
-.aboutContainer {
+.aboutContainerTop h1{
+    font-family: 'Lato';
+    color: white;
+    font-size: 2rem;
+    animation: fadeIn 1s .5s backwards;
+}
+.aboutContainerTop h2{
+    font-family: 'Lato';
+    color: white;
+    font-size: 1.25rem;
+    animation: fadeIn 1s .5s backwards;
+    animation-delay: 1.5s;
+}
+.Container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -25,7 +41,7 @@ div + div {
 .portrait{
     margin: 20px;
     border-radius: 50%;
-    width: 300px;
+    width: 350px;
 }
 
 .description
@@ -41,14 +57,11 @@ h1{
     font-family: 'Lato';
     color: white;
     font-size: 2rem;
-    animation: fadeIn 1s .5s backwards;
 }
 h2{
     font-family: 'Lato';
     color: white;
     font-size: 1.25rem;
-    animation: fadeIn 1s .5s backwards;
-    animation-delay: 1.5s;
 }
 h3{
     font-family: 'Lato';

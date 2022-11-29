@@ -3,12 +3,7 @@ import { useRef} from "react";
 import {FaBars, FaTimes} from "react-icons/fa";
 // import { Link } from "react-router-dom";
 import "./NavBar.css";
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import {
-//   faGithub,
-//   faInstagram,
-//   faLinkedin
-// } from "@fortawesome/free-brands-svg-icons";
+
 
 import "./NavBar.css";
 
@@ -20,12 +15,13 @@ export default function Navbar(){
 
     return (
         
-        <header>
-            <FaBars className = "nav-btn-fake"/>
+        <header className="navbar">
+            <h2>Michael Zhang</h2>
             <nav ref={navRef}>
+                
                 <a href="/#">Home</a>
                 <a href="/#">Experience</a>
-                <a href="/#">Contact Me</a>
+                <a href="/#Contact">Contact Me</a>
                 <button className = "nav-btn nav-close-btn" onClick={showNavBar}>
                     <FaTimes/>
                 </button>
