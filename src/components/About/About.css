@@ -1,19 +1,26 @@
-
-.aboutContainer {
-    /* border-radius: 25px;
-    background: #73AD21;
-    padding: 20px;
-    display: flex;
-    flex-direction:row;
-    align-items: center;
-    justify-content: center;
-    background-color: #242526; */
+div + div {
+    margin-top: 10px;
+}
+.aboutContainerTop {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     background-color: #242526;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+
+}
+
+.aboutContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: #242526;
+    border-radius: 25px;
 }
 .portrait{
     margin: 20px;
@@ -23,6 +30,7 @@
 
 .description
 {
+
     margin: 10px;
     align-items: center;
     text-align: center;
@@ -33,9 +41,23 @@ h1{
     font-family: 'Lato';
     color: white;
     font-size: 2rem;
+    animation: fadeIn 1s .5s backwards;
 }
 h2{
     font-family: 'Lato';
     color: white;
     font-size: 1.25rem;
+    animation: fadeIn 1s .5s backwards;
+    animation-delay: 1.5s;
+}
+h3{
+    font-family: 'Lato';
+    color: white;
+    font-size: 1rem;
+}
+
+
+@keyframes fadeIn {
+    from { opacity: 0}
+    to { opacity: 1}
 }

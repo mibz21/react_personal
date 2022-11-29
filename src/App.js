@@ -12,10 +12,12 @@ import Skills from "./components/Skills/Skills";
 function App() {
   return (
     <main>
-      {/* <Helmet>
-          <style>{'body { background-color: white; }'}</style>
-      </Helmet> */}
-      <NavBar/>
+      <Helmet>
+          <style>{'body { background-color: black; }'}</style>
+      </Helmet>
+      <fragment>
+        <NavBar/>
+      </fragment>
       <About />
       <Experience />
       <Skills />
