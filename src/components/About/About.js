@@ -3,6 +3,7 @@ import Portrait from "../../static/images/portrait.jpeg";
 import "../everything.css";
 export default function About() {
   return (
+    
     <div className= "homeContainer">
       <div className = "aboutContainerTop">
         <img className = "portrait" src={Portrait} alt = "Portrait"/>
@@ -17,7 +18,7 @@ export default function About() {
         <br/>
         <h3>Welcome to my website! This website is an ongoing personal project that is written in React and deployed on Github Pages.
         </h3>
-        <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+        <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
       </div>
     </div>
 

@@ -5,8 +5,6 @@ import {FaBars, FaTimes} from "react-icons/fa";
 import "./NavBar.css";
 
 
-import "./NavBar.css";
-
 export default function Navbar(){
     const navRef = useRef();
     const showNavBar = () =>{
@@ -19,9 +17,9 @@ export default function Navbar(){
             <h2>Michael Zhang</h2>
             <nav ref={navRef}>
                 
-                <a href="/#">Home</a>
-                <a href="/#">Experience</a>
-                <a href="/#Contact">Contact Me</a>
+                <a href="/">Home</a>
+                <a href="/Experience">Experience</a>
+                <a href="/Contact">Contact Me</a>
                 <button className = "nav-btn nav-close-btn" onClick={showNavBar}>
                     <FaTimes/>
                 </button>
