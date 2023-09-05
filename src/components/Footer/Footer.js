@@ -20,7 +20,7 @@ export default function Footer() {
                 </a>
             </div>
             <div className="copyright">
-                <h3>© 2020 Michael Zhang Github Repo</h3>
+                <h3>© 2023 Michael Zhang Github Repository</h3>
             </div>
             
             

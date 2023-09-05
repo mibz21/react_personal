@@ -19,9 +19,6 @@ export default function Home()
             <NavBar/>
         </fragment>
         <About />
-        <Experience />
-        <Skills />
-        <ContactForm />
         <Footer />
         </main>
     )

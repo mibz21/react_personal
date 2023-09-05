@@ -1,0 +1,3 @@
+aws s3 sync --delete build/ s3://personal-website-mibz.dev
+
+aws cloudfront create-invalidation --distribution-id EH6BZ1HG9IC48 --paths "/*"

@@ -1,6 +1,7 @@
 import React from "react";
 import Portrait from "../../static/images/portrait.jpeg";
 import "../everything.css";
+import "./About.css";
 export default function About() {
   return (
     
@@ -13,12 +14,12 @@ export default function About() {
         </div>
       </div>
     <div className = "Container">
-      <div className = "description">
+      <div className = "description_what">
         <h1>About Me</h1>
         <br/>
-        <h3>Welcome to my website! This website is an ongoing personal project that is written in React and deployed on Github Pages.
-        </h3>
-        <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+        <h2>Welcome to my website! This website is an ongoing personal project that details my experience and computer engineering activities. It was originally deployed using Github Pages, but transitioned to an AWS based service, hosted through S3 services and routed using Route53 and Cloudformation to use a custom domain.
+        </h2>
+        {/* <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/> */}
       </div>
     </div>
 

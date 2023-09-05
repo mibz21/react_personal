@@ -1,7 +1,6 @@
 {
   "name": "website",
   "version": "0.1.0",
-  "homepage": "https://mibz21.github.io/react_personal/",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.2.1",
@@ -19,16 +18,16 @@
     "react-icons": "^4.6.0",
     "react-router-dom": "^6.13.0",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4",
-    "website": "github:mibz21/react_personal"
+    "web-vitals": "^2.1.4"
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "aws s3 sync --delete build/ s3://personal-website-mibz.dev && aws cloudfront create-invalidation --distribution-id EH6BZ1HG9IC48 --paths \"/*\" ",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "build-deploy":"npm run build && npm run deploy"
   },
   "eslintConfig": {
     "extends": [

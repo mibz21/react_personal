@@ -1,76 +1,9 @@
-div + div {
-    margin-top: 10px;
-}
-.homeContainer{
-    margin-top: 80px
-}
-.aboutContainerTop {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    background-color: #242526;
-    border-bottom-left-radius: 25px;
-    border-bottom-right-radius: 25px;
-    
-}
 
-.aboutContainerTop h1{
-    font-family: 'Lato';
-    color: white;
-    font-size: 2rem;
-    animation: fadeIn 1s .5s backwards;
-}
-.aboutContainerTop h2{
-    font-family: 'Lato';
-    color: white;
-    font-size: 1.25rem;
-    animation: fadeIn 1s .5s backwards;
-    animation-delay: 1.5s;
-}
-.Container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    background-color: #242526;
-    border-radius: 25px;
-}
-.portrait{
-    margin: 20px;
-    border-radius: 50%;
-    width: 350px;
-}
-
-.description
+.description_what
 {
 
-    margin: 10px;
+    margin: 50px;
     align-items: center;
     text-align: center;
     justify-content: center;
-}
-
-h1{
-    font-family: 'Lato';
-    color: white;
-    font-size: 2rem;
-}
-h2{
-    font-family: 'Lato';
-    color: white;
-    font-size: 1.25rem;
-}
-h3{
-    font-family: 'Lato';
-    color: white;
-    font-size: 1rem;
-}
-
-
-@keyframes fadeIn {
-    from { opacity: 0}
-    to { opacity: 1}
 }
